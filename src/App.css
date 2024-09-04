@@ -1,0 +1,150 @@
+
+body{
+  background-color:rgb(224, 224, 232);
+}
+.container{
+  background-color:white;
+  margin:100px auto;
+  border:0px solid black;
+  width:30%;
+  min-height:300px;
+  border-radius:5px;
+}
+.maindiv{
+  border:0px solid black;
+  margin:20px auto;
+  height:50px;
+  TEXT-ALIGN:CENTER;
+  box-sizing: border-box;
+  width:90%;
+  line-height:50px;
+  font-size: 20px;
+  font-weight:bold
+}
+.switchpages{
+  /* display:flex;
+  flex-direction:hrizontal; */
+  border:0px solid black;
+width:95%;
+height:50px;
+}
+.switchpages1 {
+  border:0px solid black;
+float:left;
+width:40%;
+text-align:center;
+border-radius:5px;
+
+}
+.switchpages1 :hover{
+background-color:blue;
+color:white;
+}
+.switchpages2{
+  border:0px solid black;
+float:right;width:40%;
+text-align:center;
+border-radius:5px;
+
+}
+.switchpages2:hover{
+  background-color:blue;
+  color:white;
+}
+input{
+  width:95%;
+  margin:3px;
+  height:30px;
+  border-radius:5px;
+  border-color:rgb(227, 239, 235);
+}
+button{
+  width:95%;
+  margin:5px;
+  height:30px;
+  border-radius:5px;
+  line-height:2px;
+
+}
+button:hover{
+  background-color:blue;
+  color:white;
+}
+div .fgt_pwd{
+  margin-left:10px;
+}
+.footer-div{
+text-align:center;
+}
+@MEDIA only screen and (max-width:"1718px"){
+  .switchpages1 {
+    border:0px solid black;
+  float:left;
+  width:10%;
+  text-align:center;
+  border-radius:5px;
+  
+  }
+  .switchpages2 {
+    border:0px solid black;
+  float:left;
+  width:10%;
+  text-align:center;
+  border-radius:5px;
+  
+  }
+}
+@MEDIA only screen and (max-width:"848px"){
+  .footer-div{
+   text-align:center;
+  }
+}
+@media only screen and (max-width:848px){
+  .switchpages{
+    height:110px;
+  }
+  .switchpages1 {
+    border:0px solid black;
+  float:none;
+  width:95%;
+  text-align:center;
+  border-radius:5px;
+  
+  }
+  .switchpages2 {
+    border:0px solid black;
+  float:none;
+  width:95%;
+  text-align:center;
+  border-radius:5px;
+  
+  }
+}
+
+@media only screen and (max-width:647px){
+  input{
+    width:80%;
+    margin:0.1px;
+    height:30px;
+    border-radius:5px;
+    border-color:rgb(227, 239, 235);
+  }
+  .container{
+    background-color:white;
+    margin:100px auto;
+    border:0px solid black;
+    width:35%;
+    min-height:300px;
+    border-radius:5px;
+  }
+}
+
+@media only screen and (max-width:815px){
+  input{
+    width:95%;
+    margin:1px;
+    height:30px;
+    border-radius:5px;
+    border-color:rgb(227, 239, 235);
+  }
+}
